@@ -46,4 +46,9 @@ A new Flutter project.
   auto_route_generator: ^5.0.3
 
 ## Скриншоты 
+![Скриншот](https://raw.githubusercontent.com/DiasNauryzbek/Crypto_AppTest/main/IMAGE%202023-07-15%2019:31:31.jpg)
+
+![Скриншот](https://raw.githubusercontent.com/DiasNauryzbek/Crypto_AppTest/main/IMAGE%202023-07-15%2019:31:34.jpg)
+
+![Скриншот](https://raw.githubusercontent.com/DiasNauryzbek/Crypto_AppTest/main/IMAGE%202023-07-15%2019:31:38.jpg)
 
