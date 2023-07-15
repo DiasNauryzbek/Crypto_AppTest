@@ -4,13 +4,46 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+## Обзор функционала
+В данном Pull Request реализован следующий функционал:
 
-A few resources to get you started if this is your first Flutter project:
+Отображение списка криптовалют с текущими ценами, используя REST API от Polygon.io.
+Детализация каждой криптовалюты, включая график исторических данных.
+Обработка возможных ошибок API и информирование пользователя о проблемах сети.
+Функционал поиска по имени криптовалюты.
+Реализация пагинации при загрузке списка криптовалю.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Шаги для проверки задания
+Склонируйте репозиторий на свою машину: git clone <repository_url>
+Перейдите в каталог проекта: cd <project_directory>
+Установите необходимые зависимости: flutter pub get
+Запустите приложение: flutter run
+Проверьте, что приложение успешно загружает список криптовалют с текущими ценами.
+Выберите одну из криптовалют и убедитесь, что детализация отображает график исторических данных.
+Попробуйте обновить данные с помощью pull-to-refresh и проверьте, что список криптовалют обновляется корректно.
+Введите название криптовалюты в поле поиска и убедитесь, что результаты поиска отображаются корректно.
+Проверьте, что при загрузке списка криптовалют происходит пагинация и отображаются дополнительные элементы.
+Убедитесь, что приложение корректно обрабатывает ошибки API и информирует пользователя о проблемах сети.
+## Зависимости
+Для работы приложения требуется следующая зависимость:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  dio: ^4.0.0 .
+  flutter_bloc: ^8.1.2
+  json_annotation: ^4.3.0
+  equatable: ^2.0.3
+
+  dio: ^5.1.1
+  provider: ^6.0.2
+
+  get_it: ^7.2.0
+  flutter_svg: ^1.0.3
+  auto_route: ^5.0.2
+  google_fonts: ^5.0.0
+  syncfusion_flutter_charts: ^22.1.38
+  intl: ^0.18.0
+  json_serializable: ^6.0.1
+  build_runner: ^2.3.2
+  auto_route_generator: ^5.0.3
+
+## Скриншоты 
+
